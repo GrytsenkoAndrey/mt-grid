@@ -1,10 +1,10 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 150px;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: 'header header header'
-    'main main aside'
-    'footer footer footer';
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'header header'
+    'main aside'
+    'footer footer';
     grid-gap: 20px;
 }
 header {
