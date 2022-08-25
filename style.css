@@ -21,3 +21,12 @@ aside {
 footer {
     grid-area: footer;
 }
+div.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10% 10%;
+    grid-gap: 20px;
+}
+div.gallery > img {
+    object-fit: cover;
+}
